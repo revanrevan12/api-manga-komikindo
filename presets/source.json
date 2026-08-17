@@ -1,0 +1,72 @@
+{
+  "name": "KomikIndo",
+  "version": "1.0.0",
+  "createdAt": "2026-08-17T12:30:29.257Z",
+  "lastVerified": "2026-08-17T12:30:29.257Z",
+  "baseUrl": "https://komikindo.ch",
+  "generatedAt": "2026-08-17T12:30:29.257Z",
+  "generator": "MANGA FASE 4",
+  "endpoints": [
+    "/api/health",
+    "/api/popular",
+    "/api/latest",
+    "/api/search",
+    "/api/manga/:slug",
+    "/api/manga/:slug/chapters",
+    "/api/chapter/:slug",
+    "/api/chapter/:slug/pages",
+    "/api/img"
+  ],
+  "selectors": {
+    "card": "div.animepost",
+    "title": [
+      "h3"
+    ],
+    "cover": [
+      "img"
+    ],
+    "link": [
+      "a"
+    ],
+    "author": [
+      "span"
+    ],
+    "artist": [
+      "span"
+    ],
+    "status": [
+      "span"
+    ],
+    "synopsis": [
+      "div#sinopsis"
+    ],
+    "genres": [
+      "a[href*=\"genre\"]",
+      "a[href*=\"tag\"]",
+      "a[href*=\"category\"]",
+      "a[href*=\"genres\"]"
+    ],
+    "chapter": "div.epsbr",
+    "chapterUrl": "",
+    "chapterNumber": [
+      "div.epsbr-box"
+    ],
+    "chapterTitle": [
+      "div.epsbr-box"
+    ],
+    "pages": [
+      "div#chimg-auh img"
+    ],
+    "popularUrl": "https://komikindo.ch/?page={page}&limit={limit}",
+    "latestUrl": "https://komikindo.ch/?sort=latest&page={page}&limit={limit}",
+    "searchUrl": "https://komikindo.ch/?q={q}&page={page}&limit={limit}",
+    "detailUrl": "",
+    "readerUrl": ""
+  },
+  "sampleUrls": [],
+  "health": {
+    "lastCheck": "2026-08-17T12:30:29.257Z",
+    "status": "healthy",
+    "fields": {}
+  }
+}
