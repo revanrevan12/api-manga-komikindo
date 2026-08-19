@@ -1,10 +1,10 @@
 {
   "name": "KomikIndo",
   "version": "1.0.0",
-  "createdAt": "2026-08-17T12:30:29.257Z",
-  "lastVerified": "2026-08-17T12:30:29.257Z",
+  "createdAt": "2026-08-19T15:53:07.858Z",
+  "lastVerified": "2026-08-19T15:53:07.858Z",
   "baseUrl": "https://komikindo.ch",
-  "generatedAt": "2026-08-17T12:30:29.257Z",
+  "generatedAt": "2026-08-19T15:53:07.858Z",
   "generator": "MANGA FASE 4",
   "endpoints": [
     "/api/health",
@@ -46,16 +46,16 @@
       "a[href*=\"category\"]",
       "a[href*=\"genres\"]"
     ],
-    "chapter": "div.epsbr",
+    "chapter": "span.lchx",
     "chapterUrl": "",
     "chapterNumber": [
-      "div.epsbr-box"
+      "a"
     ],
     "chapterTitle": [
-      "div.epsbr-box"
+      "a"
     ],
     "pages": [
-      "div#chimg-auh img"
+      "img"
     ],
     "popularUrl": "https://komikindo.ch/?page={page}&limit={limit}",
     "latestUrl": "https://komikindo.ch/?sort=latest&page={page}&limit={limit}",
@@ -65,7 +65,7 @@
   },
   "sampleUrls": [],
   "health": {
-    "lastCheck": "2026-08-17T12:30:29.257Z",
+    "lastCheck": "2026-08-19T15:53:07.858Z",
     "status": "healthy",
     "fields": {}
   }

@@ -27,16 +27,16 @@
     "a[href*=\"category\"]",
     "a[href*=\"genres\"]"
   ],
-  "chapter": "div.epsbr",
+  "chapter": "span.lchx",
   "chapterUrl": "",
   "chapterNumber": [
-    "div.epsbr-box"
+    "a"
   ],
   "chapterTitle": [
-    "div.epsbr-box"
+    "a"
   ],
   "pages": [
-    "div#chimg-auh img"
+    "img"
   ],
   "popularUrl": "https://komikindo.ch/?page={page}&limit={limit}",
   "latestUrl": "https://komikindo.ch/?sort=latest&page={page}&limit={limit}",
